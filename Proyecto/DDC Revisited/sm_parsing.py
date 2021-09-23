@@ -187,7 +187,6 @@ def notes_parser(raw_notes, replace_letter_arrow_types=True):
 
                     # Each column in a block represents an arrow: Left | Down | Up | Right
                     # The value that goes into each column represents the type of arrow:
-
                     # 0 - No Note
                     # 1 - Normal Note
                     # 2 - Hold Head
@@ -209,8 +208,11 @@ def notes_parser(raw_notes, replace_letter_arrow_types=True):
                     for arrow_code in letter_arrow_types.keys():
 
                         # The replacement is done, only if the setting is enable
-                        if arrow_code in note_blocks[block] and replace_letter_arrow_types:           
+                        if arrow_code in note_blocks[block] and replace_letter_arrow_types == True:           
                             note_blocks[block][note_blocks[block] == arrow_code] = letter_arrow_types[arrow_code]
+
+                        # The arrays's values are casted to int
+                        note_blocks[block] = note_blocks[block].astype(int)
 
             # Note blocks or measures are stored
             note_info[info_titles[idx]] = note_blocks
@@ -221,7 +223,7 @@ def notes_parser(raw_notes, replace_letter_arrow_types=True):
 # FULL STEP FILE PARSING
 # ======================================
 
-def stepfile_parser(step_data):
+def stepfile_parser(step_data, replace_letter_arrow_types=True, apply9ms_offset=False):
 
     # Dict to store tag names and values
     tags = {}
@@ -237,9 +239,9 @@ def stepfile_parser(step_data):
         # Tags with the same common data type are listed together. 
         # Tags that have a very specific data type are parsed individually 
         string_values   = ["title", "subtitle", "artist", "titletranslit", "subtitletranslit", "artisttranslit", "genre",
-                        "credit", "banner","background", "lyricspath", "cdtitle", "music", "displaybpm", "bgchanges", 
-                        "bgchanges2", "fgchanges", "keysounds", "attacks", "origin", "previewvid", "jacket", "cdimage",
-                        "discimage"]
+                           "credit", "banner","background", "lyricspath", "cdtitle", "music", "displaybpm", "bgchanges", 
+                           "bgchanges2", "fgchanges", "keysounds", "attacks", "origin", "previewvid", "jacket", "cdimage",
+                           "discimage"]
         float_values    = ["version", "offset", "samplestart", "samplelength", "musiclength", "lastbeathint"]
         int_values      = ["musicbytes"]
         bool_values     = ["selectable"]
@@ -276,15 +278,21 @@ def stepfile_parser(step_data):
             # in a list. If the "notes" key doesn't exist in the dict, we create
             # it's first element.
             if tag_name not in tags.keys():
-                tag_val_parsed = [notes_parser(tag_val)]
+                tag_val_parsed = [notes_parser(tag_val, replace_letter_arrow_types)]
             
             # Once the key exists, we append the new charts to the list
             else:
-                tags[tag_name].append(notes_parser(tag_val))
+                tags[tag_name].append(notes_parser(tag_val, replace_letter_arrow_types))
 
         else:
             print(f"No parser found for the tag '{tag_name}'. Using raw value.")
             tag_val_parsed = tag_val
+
+        # Quoting Chris Donahue:
+        # "Many charters add a 9ms of delay to their stepfiles to account for ITG r21/r23 
+        # global delay. See http://r21freak.com/phpbb3/viewtopic.php?f=38&t=12750"
+        if (tag_name == "offset") and (apply9ms_offset == True):
+            tag_val_parsed -= 0.009
         
         # Parsed values are stored in the tag dict
         tags[tag_name] = tag_val_parsed
