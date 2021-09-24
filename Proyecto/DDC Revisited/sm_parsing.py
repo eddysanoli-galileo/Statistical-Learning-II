@@ -208,7 +208,7 @@ def notes_parser(raw_notes, replace_letter_arrow_types=True):
                     for arrow_code in letter_arrow_types.keys():
 
                         # The replacement is done, only if the setting is enable
-                        if arrow_code in note_blocks[block] and replace_letter_arrow_types == True:           
+                        if (arrow_code in list(note_blocks[block].flatten())) and (replace_letter_arrow_types == True):           
                             note_blocks[block][note_blocks[block] == arrow_code] = letter_arrow_types[arrow_code]
 
                         # The arrays's values are casted to int
