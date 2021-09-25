@@ -28,6 +28,9 @@ def add_measure_timestamps(song_tags):
         # will be concatenated vertically as well
         timestamp_data = np.empty((0, 1))
 
+        # BPM for each beat
+        bpm_data = np.empty((0,1))
+
         # =================
         # SEGMENT LENGTH
         # =================
@@ -112,7 +115,6 @@ def add_measure_timestamps(song_tags):
                 # in which our beat should be placed to be greater than the previous beat timestamp.
                 # By subtracting one from this result, we will get the beat segment each beat belongs to.
                 # In short, we obtain the BPM segment to which every beat belongs to.
-                #timestamps = np.append(BPMs[:,0], np.Inf)
                 bpm_segment_beat_idx = np.searchsorted(BPMs[:,0], beat_index, side="left") - 1
 
                 # Cumulative bpm segment length for all current beats
@@ -122,9 +124,9 @@ def add_measure_timestamps(song_tags):
             # - We asume that all beats pertain to the only segment available: 0
             # - There is nothing to "cumulative sum", so the sum is equal to 0
             elif len(BPMs) == 1:
-                bpm_segment_beat_idx = 0
+                bpm_segment_beat_idx = np.zeros((measure_len)).astype(np.int)
                 cumulative_bpm_beat = 0
-            
+
             # If BPM has no timestamps, the stepfile is defective.
             else:
                 raise Exception("No BPM provided for the song. Unable to process the file.")
@@ -166,7 +168,6 @@ def add_measure_timestamps(song_tags):
             # 1. The BPM for each segment is converted to seconds per beat (SPB)
             # 2. We get the difference between the current beat and the las BPM segment limit (given in beats)
             # 3. The previous difference is converted into seconds by multiplying by the SPB (SPB x B = S)
-            #print(BPMs[bpm_segment_beat_idx,:])
             partial_segment_spb = (60 / BPMs[bpm_segment_beat_idx, 1])
             partial_segment = partial_segment_spb * (beat_index  - BPMs[bpm_segment_beat_idx, 0])
 
@@ -186,9 +187,11 @@ def add_measure_timestamps(song_tags):
             beat_abs_time = cumulative_bpm_beat + cumulative_stop_beat - offset + partial_segment
 
             # Timestamp and measure data is added to the existing data.
-            timestamp = np.reshape(beat_abs_time, (-1,1))
+            timestamp   = np.reshape(beat_abs_time, (-1,1))
+            measure_bpm = np.reshape(BPMs[bpm_segment_beat_idx,1], (-1,1))
             timestamp_data = np.vstack((timestamp_data, timestamp))
-            measure_data = np.vstack((measure_data, measure))
+            measure_data   = np.vstack((measure_data, measure))
+            bpm_data       = np.vstack((bpm_data, measure_bpm))
 
         # =======================
         # TIMESTAMP ADJUSTMENT
@@ -220,7 +223,7 @@ def add_measure_timestamps(song_tags):
         # =======================
 
         # Timestamp and measure data is concatenated
-        timed_measure_data = np.hstack((measure_data, timestamp_data))
+        timed_measure_data = np.hstack((measure_data, timestamp_data, bpm_data))
 
         # We organize the "timed measure data" by putting it in a 
         # dict organized by chart type and difficulty.

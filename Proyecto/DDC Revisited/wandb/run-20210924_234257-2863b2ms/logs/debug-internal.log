@@ -1,0 +1,154 @@
+2021-09-24 23:43:00,811 INFO    MainThread:23020 [internal.py:wandb_internal():86] W&B internal server running at pid: 23020, started at: 2021-09-24 23:43:00.803918
+2021-09-24 23:43:00,817 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: check_version
+2021-09-24 23:43:00,818 INFO    WriterThread:23020 [datastore.py:open_for_write():77] open: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\run-2863b2ms.wandb
+2021-09-24 23:43:00,823 DEBUG   SenderThread:23020 [sender.py:send():182] send: header
+2021-09-24 23:43:00,823 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: check_version
+2021-09-24 23:43:01,107 DEBUG   SenderThread:23020 [sender.py:send():182] send: run
+2021-09-24 23:43:01,626 INFO    SenderThread:23020 [dir_watcher.py:__init__():169] watching files in: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files
+2021-09-24 23:43:01,626 INFO    SenderThread:23020 [sender.py:_start_run_threads():740] run started: 2863b2ms with start time 1632548578
+2021-09-24 23:43:01,628 DEBUG   SenderThread:23020 [sender.py:send():182] send: summary
+2021-09-24 23:43:01,628 INFO    SenderThread:23020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-24 23:43:01,631 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: run_start
+2021-09-24 23:43:02,636 INFO    Thread-12 :23020 [dir_watcher.py:_on_file_created():217] file/dir created: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\wandb-summary.json
+2021-09-24 23:43:07,673 INFO    Thread-12 :23020 [dir_watcher.py:_on_file_created():217] file/dir created: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\output.log
+2021-09-24 23:43:09,471 DEBUG   HandlerThread:23020 [meta.py:__init__():40] meta init
+2021-09-24 23:43:09,471 DEBUG   HandlerThread:23020 [meta.py:__init__():54] meta init done
+2021-09-24 23:43:09,471 DEBUG   HandlerThread:23020 [meta.py:probe():211] probe
+2021-09-24 23:43:09,496 DEBUG   HandlerThread:23020 [meta.py:_setup_git():201] setup git
+2021-09-24 23:43:09,674 DEBUG   HandlerThread:23020 [meta.py:_setup_git():208] setup git done
+2021-09-24 23:43:09,674 DEBUG   HandlerThread:23020 [meta.py:_save_pip():58] save pip
+2021-09-24 23:43:09,675 DEBUG   HandlerThread:23020 [meta.py:_save_pip():72] save pip done
+2021-09-24 23:43:09,676 DEBUG   HandlerThread:23020 [meta.py:probe():249] probe done
+2021-09-24 23:43:09,713 INFO    Thread-12 :23020 [dir_watcher.py:_on_file_created():217] file/dir created: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\wandb-metadata.json
+2021-09-24 23:43:09,715 INFO    Thread-12 :23020 [dir_watcher.py:_on_file_created():217] file/dir created: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\requirements.txt
+2021-09-24 23:43:09,723 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:43:09,723 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: pause
+2021-09-24 23:43:09,723 INFO    HandlerThread:23020 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-24 23:43:09,723 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:43:09,967 DEBUG   SenderThread:23020 [sender.py:send():182] send: files
+2021-09-24 23:43:09,968 INFO    SenderThread:23020 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-24 23:43:09,969 DEBUG   SenderThread:23020 [sender.py:send():182] send: stats
+2021-09-24 23:43:10,747 INFO    Thread-17 :23020 [upload_job.py:push():137] Uploaded file C:\Users\eddys\AppData\Local\Temp\tmpzxbks4bdwandb\2543ooqo-wandb-metadata.json
+2021-09-24 23:43:16,686 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: resume
+2021-09-24 23:43:16,686 INFO    HandlerThread:23020 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-24 23:43:16,687 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: pause
+2021-09-24 23:43:16,688 INFO    HandlerThread:23020 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-24 23:43:17,073 DEBUG   SenderThread:23020 [sender.py:send():182] send: stats
+2021-09-24 23:43:19,989 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: resume
+2021-09-24 23:43:19,990 INFO    HandlerThread:23020 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-24 23:43:19,991 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: pause
+2021-09-24 23:43:19,991 INFO    HandlerThread:23020 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-24 23:43:20,064 DEBUG   SenderThread:23020 [sender.py:send():182] send: stats
+2021-09-24 23:43:24,980 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:43:24,980 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:43:31,921 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: resume
+2021-09-24 23:43:31,921 INFO    HandlerThread:23020 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-24 23:43:33,067 DEBUG   SenderThread:23020 [sender.py:send():182] send: telemetry
+2021-09-24 23:43:33,068 DEBUG   SenderThread:23020 [sender.py:send():182] send: exit
+2021-09-24 23:43:33,068 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:33,068 INFO    SenderThread:23020 [sender.py:send_exit():291] handling exit code: 0
+2021-09-24 23:43:33,068 INFO    SenderThread:23020 [sender.py:send_exit():293] handling runtime: 9
+2021-09-24 23:43:33,071 INFO    SenderThread:23020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-24 23:43:33,071 INFO    SenderThread:23020 [sender.py:send_exit():303] send defer
+2021-09-24 23:43:33,072 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:33,073 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:33,074 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-24 23:43:33,074 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:33,075 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-24 23:43:33,075 INFO    SenderThread:23020 [sender.py:transition_state():316] send defer: 1
+2021-09-24 23:43:33,078 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:33,080 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-24 23:43:33,165 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:33,165 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-24 23:43:33,165 INFO    SenderThread:23020 [sender.py:transition_state():316] send defer: 2
+2021-09-24 23:43:33,166 DEBUG   SenderThread:23020 [sender.py:send():182] send: stats
+2021-09-24 23:43:33,167 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:33,168 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-24 23:43:33,168 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:33,168 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-24 23:43:33,168 INFO    SenderThread:23020 [sender.py:transition_state():316] send defer: 3
+2021-09-24 23:43:33,169 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:33,169 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-24 23:43:33,169 DEBUG   SenderThread:23020 [sender.py:send():182] send: summary
+2021-09-24 23:43:33,170 INFO    SenderThread:23020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-24 23:43:33,171 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:33,171 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-24 23:43:33,171 INFO    SenderThread:23020 [sender.py:transition_state():316] send defer: 4
+2021-09-24 23:43:33,172 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:33,173 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-24 23:43:33,174 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:33,176 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-24 23:43:33,200 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:33,456 INFO    SenderThread:23020 [sender.py:transition_state():316] send defer: 5
+2021-09-24 23:43:33,456 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:33,458 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:33,458 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-24 23:43:33,459 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:33,459 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-24 23:43:33,459 INFO    SenderThread:23020 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-24 23:43:33,571 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:33,912 INFO    SenderThread:23020 [dir_watcher.py:_on_file_modified():230] file/dir modified: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\config.yaml
+2021-09-24 23:43:33,913 INFO    SenderThread:23020 [dir_watcher.py:_on_file_modified():230] file/dir modified: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\wandb-summary.json
+2021-09-24 23:43:33,913 INFO    SenderThread:23020 [dir_watcher.py:finish():313] scan: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files
+2021-09-24 23:43:33,914 INFO    SenderThread:23020 [dir_watcher.py:finish():327] scan save: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\config.yaml config.yaml
+2021-09-24 23:43:33,914 INFO    SenderThread:23020 [dir_watcher.py:finish():327] scan save: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\output.log output.log
+2021-09-24 23:43:33,915 INFO    SenderThread:23020 [dir_watcher.py:finish():327] scan save: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\requirements.txt requirements.txt
+2021-09-24 23:43:33,919 INFO    SenderThread:23020 [dir_watcher.py:finish():327] scan save: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\wandb-metadata.json wandb-metadata.json
+2021-09-24 23:43:33,919 INFO    SenderThread:23020 [dir_watcher.py:finish():327] scan save: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\wandb-summary.json wandb-summary.json
+2021-09-24 23:43:33,920 INFO    SenderThread:23020 [sender.py:transition_state():316] send defer: 6
+2021-09-24 23:43:33,921 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:33,927 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:33,936 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-24 23:43:33,936 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:33,937 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-24 23:43:33,937 INFO    SenderThread:23020 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-24 23:43:34,036 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:34,037 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:34,145 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:34,146 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:34,251 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:34,252 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:34,361 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:34,361 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:34,468 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:34,468 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:34,604 INFO    Thread-22 :23020 [upload_job.py:push():137] Uploaded file e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\requirements.txt
+2021-09-24 23:43:34,604 INFO    Thread-23 :23020 [upload_job.py:push():137] Uploaded file e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\wandb-summary.json
+2021-09-24 23:43:34,620 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:34,620 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:34,692 INFO    Thread-21 :23020 [upload_job.py:push():137] Uploaded file e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\files\config.yaml
+2021-09-24 23:43:34,740 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:34,741 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:34,859 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:34,859 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:34,905 INFO    Thread-11 :23020 [sender.py:transition_state():316] send defer: 7
+2021-09-24 23:43:34,906 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:34,906 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-24 23:43:34,906 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:34,907 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-24 23:43:34,968 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:35,163 INFO    SenderThread:23020 [sender.py:transition_state():316] send defer: 8
+2021-09-24 23:43:35,163 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:35,164 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:35,164 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-24 23:43:35,165 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:35,165 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-24 23:43:35,165 INFO    SenderThread:23020 [sender.py:transition_state():316] send defer: 9
+2021-09-24 23:43:35,166 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:43:35,166 INFO    HandlerThread:23020 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-24 23:43:35,166 DEBUG   SenderThread:23020 [sender.py:send():182] send: final
+2021-09-24 23:43:35,166 DEBUG   SenderThread:23020 [sender.py:send():182] send: footer
+2021-09-24 23:43:35,166 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:43:35,166 INFO    SenderThread:23020 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-24 23:43:35,267 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:43:35,268 DEBUG   SenderThread:23020 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:43:35,268 INFO    SenderThread:23020 [file_pusher.py:join():182] waiting for file pusher
+2021-09-24 23:43:35,270 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-24 23:43:35,272 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-24 23:43:35,273 DEBUG   HandlerThread:23020 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-24 23:43:35,273 INFO    HandlerThread:23020 [handler.py:finish():683] shutting down handler
+2021-09-24 23:43:36,176 INFO    WriterThread:23020 [datastore.py:close():281] close: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234257-2863b2ms\run-2863b2ms.wandb
+2021-09-24 23:43:36,268 INFO    SenderThread:23020 [sender.py:finish():979] shutting down sender
+2021-09-24 23:43:36,268 INFO    SenderThread:23020 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-24 23:43:36,268 INFO    SenderThread:23020 [file_pusher.py:join():182] waiting for file pusher
+2021-09-24 23:43:36,271 INFO    MainThread:23020 [internal.py:handle_exit():76] Internal process exited

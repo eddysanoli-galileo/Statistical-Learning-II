@@ -1,0 +1,245 @@
+2021-09-24 23:43:39,686 INFO    MainThread:488 [internal.py:wandb_internal():86] W&B internal server running at pid: 488, started at: 2021-09-24 23:43:39.669080
+2021-09-24 23:43:39,689 INFO    WriterThread:488 [datastore.py:open_for_write():77] open: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234331-2hmsi16f\run-2hmsi16f.wandb
+2021-09-24 23:43:39,690 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: check_version
+2021-09-24 23:43:39,713 DEBUG   SenderThread:488 [sender.py:send():182] send: header
+2021-09-24 23:43:39,713 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: check_version
+2021-09-24 23:43:39,977 DEBUG   SenderThread:488 [sender.py:send():182] send: run
+2021-09-24 23:43:40,430 INFO    SenderThread:488 [dir_watcher.py:__init__():169] watching files in: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234331-2hmsi16f\files
+2021-09-24 23:43:40,431 INFO    SenderThread:488 [sender.py:_start_run_threads():740] run started: 2hmsi16f with start time 1632548617
+2021-09-24 23:43:40,431 DEBUG   SenderThread:488 [sender.py:send():182] send: summary
+2021-09-24 23:43:40,432 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: run_start
+2021-09-24 23:43:40,432 INFO    SenderThread:488 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-24 23:43:41,433 INFO    Thread-12 :488 [dir_watcher.py:_on_file_created():217] file/dir created: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234331-2hmsi16f\files\wandb-summary.json
+2021-09-24 23:43:43,184 DEBUG   HandlerThread:488 [meta.py:__init__():40] meta init
+2021-09-24 23:43:43,184 DEBUG   HandlerThread:488 [meta.py:__init__():54] meta init done
+2021-09-24 23:43:43,184 DEBUG   HandlerThread:488 [meta.py:probe():211] probe
+2021-09-24 23:43:43,193 DEBUG   HandlerThread:488 [meta.py:_setup_git():201] setup git
+2021-09-24 23:43:43,288 DEBUG   HandlerThread:488 [meta.py:_setup_git():208] setup git done
+2021-09-24 23:43:43,288 DEBUG   HandlerThread:488 [meta.py:_save_pip():58] save pip
+2021-09-24 23:43:43,289 DEBUG   HandlerThread:488 [meta.py:_save_pip():72] save pip done
+2021-09-24 23:43:43,290 DEBUG   HandlerThread:488 [meta.py:probe():249] probe done
+2021-09-24 23:43:43,294 DEBUG   SenderThread:488 [sender.py:send():182] send: files
+2021-09-24 23:43:43,295 INFO    SenderThread:488 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-24 23:43:43,309 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:43:43,310 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:43:43,471 INFO    Thread-12 :488 [dir_watcher.py:_on_file_created():217] file/dir created: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234331-2hmsi16f\files\requirements.txt
+2021-09-24 23:43:43,472 INFO    Thread-12 :488 [dir_watcher.py:_on_file_created():217] file/dir created: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234331-2hmsi16f\files\wandb-metadata.json
+2021-09-24 23:43:43,474 INFO    Thread-12 :488 [dir_watcher.py:_on_file_created():217] file/dir created: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234331-2hmsi16f\files\output.log
+2021-09-24 23:43:43,948 INFO    Thread-17 :488 [upload_job.py:push():137] Uploaded file C:\Users\eddys\AppData\Local\Temp\tmpawzyl84bwandb\26aio6a9-wandb-metadata.json
+2021-09-24 23:43:58,965 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:43:58,965 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:44:14,192 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:44:14,192 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:44:14,634 DEBUG   SenderThread:488 [sender.py:send():182] send: stats
+2021-09-24 23:44:29,418 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:44:29,418 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:44:44,630 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:44:44,631 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:44:48,620 DEBUG   SenderThread:488 [sender.py:send():182] send: stats
+2021-09-24 23:44:59,868 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:44:59,868 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:45:15,112 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:45:15,112 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:45:22,827 DEBUG   SenderThread:488 [sender.py:send():182] send: stats
+2021-09-24 23:45:30,342 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:45:30,342 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:45:45,562 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:45:45,562 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:45:56,499 DEBUG   SenderThread:488 [sender.py:send():182] send: stats
+2021-09-24 23:46:00,802 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:46:00,802 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:46:16,021 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:46:16,021 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:46:30,640 DEBUG   SenderThread:488 [sender.py:send():182] send: stats
+2021-09-24 23:46:31,303 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:46:31,304 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:46:46,517 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-24 23:46:46,517 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: stop_status
+2021-09-24 23:46:54,575 DEBUG   SenderThread:488 [sender.py:send():182] send: telemetry
+2021-09-24 23:46:54,576 DEBUG   SenderThread:488 [sender.py:send():182] send: exit
+2021-09-24 23:46:54,576 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:46:54,576 INFO    SenderThread:488 [sender.py:send_exit():291] handling exit code: 0
+2021-09-24 23:46:54,577 INFO    SenderThread:488 [sender.py:send_exit():293] handling runtime: 194
+2021-09-24 23:46:54,579 INFO    SenderThread:488 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-24 23:46:54,580 INFO    SenderThread:488 [sender.py:send_exit():303] send defer
+2021-09-24 23:46:54,580 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: poll_exit
+2021-09-24 23:46:54,582 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:46:54,582 INFO    HandlerThread:488 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-24 23:46:54,582 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:46:54,582 INFO    SenderThread:488 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-24 23:46:54,583 INFO    SenderThread:488 [sender.py:transition_state():316] send defer: 1
+2021-09-24 23:46:54,583 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:46:54,583 INFO    HandlerThread:488 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-24 23:46:54,644 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:46:54,644 INFO    SenderThread:488 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-24 23:46:54,644 INFO    SenderThread:488 [sender.py:transition_state():316] send defer: 2
+2021-09-24 23:46:54,644 DEBUG   SenderThread:488 [sender.py:send():182] send: stats
+2021-09-24 23:46:54,645 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:46:54,645 INFO    HandlerThread:488 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-24 23:46:54,646 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:46:54,646 INFO    SenderThread:488 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-24 23:46:54,646 INFO    SenderThread:488 [sender.py:transition_state():316] send defer: 3
+2021-09-24 23:46:54,646 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:46:54,646 INFO    HandlerThread:488 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-24 23:46:54,647 DEBUG   SenderThread:488 [sender.py:send():182] send: summary
+2021-09-24 23:46:54,648 INFO    SenderThread:488 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-24 23:46:54,648 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:46:54,648 INFO    SenderThread:488 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-24 23:46:54,648 INFO    SenderThread:488 [sender.py:transition_state():316] send defer: 4
+2021-09-24 23:46:54,649 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: defer
+2021-09-24 23:46:54,649 INFO    HandlerThread:488 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-24 23:46:54,650 DEBUG   SenderThread:488 [sender.py:send_request():196] send_request: defer
+2021-09-24 23:46:54,650 INFO    SenderThread:488 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-24 23:46:54,709 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:46:54,879 ERROR   SenderThread:488 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-09-24 23:46:54,879 ERROR   SenderThread:488 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '466333-2hmsi16f' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-09-24 23:46:55,052 INFO    Thread-12 :488 [dir_watcher.py:_on_file_modified():230] file/dir modified: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234331-2hmsi16f\files\wandb-summary.json
+2021-09-24 23:46:56,208 ERROR   SenderThread:488 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-09-24 23:46:56,208 ERROR   SenderThread:488 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '466333-2hmsi16f' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-09-24 23:46:58,903 ERROR   SenderThread:488 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-09-24 23:46:58,903 ERROR   SenderThread:488 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '466333-2hmsi16f' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-09-24 23:46:58,903 ERROR   SenderThread:488 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 136, in execute
+    six.reraise(*sys.exc_info())
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\six.py", line 703, in reraise
+    raise value
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2021-09-24 23:46:59,828 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:03,215 ERROR   SenderThread:488 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-09-24 23:47:03,215 ERROR   SenderThread:488 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '466333-2hmsi16f' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-09-24 23:47:04,942 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:10,061 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:13,034 ERROR   SenderThread:488 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-09-24 23:47:13,034 ERROR   SenderThread:488 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '466333-2hmsi16f' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-09-24 23:47:15,182 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:20,298 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:25,417 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:30,534 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:32,999 ERROR   SenderThread:488 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-09-24 23:47:33,000 ERROR   SenderThread:488 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '466333-2hmsi16f' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-09-24 23:47:35,648 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:40,774 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:45,892 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:51,003 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:47:56,113 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:01,231 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:06,353 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:10,523 ERROR   SenderThread:488 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-09-24 23:48:10,523 ERROR   SenderThread:488 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '466333-2hmsi16f' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-09-24 23:48:11,470 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:16,588 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:21,706 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:26,820 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:31,942 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:37,063 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:48:42,176 DEBUG   HandlerThread:488 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-24 23:49:03,188 WARNING MainThread:488 [internal.py:is_dead():364] Internal process exiting, parent pid 13520 disappeared
+2021-09-24 23:49:03,188 ERROR   MainThread:488 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-09-24 23:49:03,330 INFO    HandlerThread:488 [handler.py:finish():683] shutting down handler
+2021-09-24 23:49:03,690 INFO    WriterThread:488 [datastore.py:close():281] close: e:\Archivos\Educación\Posgrado\Universidad Galileo (UG)\Trimestre III\Statistical Learning II\Proyecto\DDC Revisited\wandb\run-20210924_234331-2hmsi16f\run-2hmsi16f.wandb
+2021-09-24 23:49:15,299 ERROR   FileStreamThread:488 [file_stream.py:_thread_except_body():314] generic exception in filestream thread
+Traceback (most recent call last):
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 310, in _thread_except_body
+    self._thread_body()
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 282, in _thread_body
+    self._handle_response(
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 321, in _handle_response
+    wandb.termerror(
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\errors\term.py", line 58, in termerror
+    _log(
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\errors\term.py", line 94, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\click\utils.py", line 272, in echo
+    file.write(message)
+OSError: [Errno 22] Invalid argument
+2021-09-24 23:49:20,670 ERROR   SenderThread:488 [internal_api.py:execute():133] 409 response executing GraphQL.
+2021-09-24 23:49:20,670 ERROR   SenderThread:488 [internal_api.py:execute():134] {"errors":[{"message":"Error 1062: Duplicate entry '466333-2hmsi16f' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-09-24 23:49:20,671 ERROR   MainThread:488 [internal.py:wandb_internal():157] Thread SenderThread:
+Traceback (most recent call last):
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\apis\normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1087, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 135, in execute
+    self.display_gorilla_error_if_found(res)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 151, in display_gorilla_error_if_found
+    wandb.termerror(
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\errors\term.py", line 58, in termerror
+    _log(
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\errors\term.py", line 94, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\click\utils.py", line 272, in echo
+    file.write(message)
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_util.py", line 52, in run
+    self._run()
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_util.py", line 102, in _run
+    self._process(record)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal.py", line 290, in _process
+    self._sm.send(record)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\sender.py", line 184, in send
+    send_handler(record)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\sender.py", line 198, in send_request
+    send_handler(record)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\sender.py", line 332, in send_request_defer
+    self.debounce()
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\sender.py", line 245, in debounce
+    self._debounce_config()
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\sender.py", line 251, in _debounce_config
+    self._api.upsert_run(
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\apis\normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\six.py", line 702, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\apis\normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1087, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 135, in execute
+    self.display_gorilla_error_if_found(res)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 151, in display_gorilla_error_if_found
+    wandb.termerror(
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\errors\term.py", line 58, in termerror
+    _log(
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\errors\term.py", line 94, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "C:\Users\eddys\AppData\Local\Programs\Python\Python39\lib\site-packages\click\utils.py", line 272, in echo
+    file.write(message)
+wandb.errors.CommError: [Errno 22] Invalid argument
+2021-09-24 23:49:20,677 INFO    MainThread:488 [internal.py:handle_exit():76] Internal process exited
