@@ -225,6 +225,9 @@ def notes_parser(raw_notes, replace_letter_arrow_types=True):
 
 def stepfile_parser(step_data, replace_letter_arrow_types=True, apply9ms_offset=False):
 
+    # Parsing based on the documentation found on the Stepmania docs:
+    # https://github-wiki-see.page/m/stepmania/stepmania/wiki/sm
+
     # Dict to store tag names and values
     tags = {}
 

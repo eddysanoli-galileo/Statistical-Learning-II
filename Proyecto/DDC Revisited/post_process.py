@@ -237,7 +237,8 @@ def add_measure_timestamps(song_tags):
 # Source: https://stackoverflow.com/questions/47954034/plotting-spectrogram-in-audio-analysis
 def log_spectrogram(audio, sample_rate, window_size=20, step_size=10, eps=1e-10):
     """
-    Calculate the spectrogram of a given "mono" audio.
+    Calculate the spectrogram of a given "mono" audio. In the project this was
+    replaced by all the functions found on the "librosa" package.
 
     Params
     ------
