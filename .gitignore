@@ -3,3 +3,6 @@ Proyecto/DDC Revisited/dataset
 Proyecto/DDC Revisited/tests/data
 Proyecto/DDC Revisited/__pycache__
 Proyecto/Dance Dance Convolution v2
+Proyecto/DDC Revisited/wandb
+*.pickle
+Parciales
